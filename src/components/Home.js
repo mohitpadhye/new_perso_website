@@ -10,9 +10,9 @@ const Home = () => {
     Aos.init();
 }, [])
   return (
-    <div className='bg-terminal h-screen flex flex-col justify-center items-center px-10'>
+    <div className='bg-terminal h-screen flex flex-col justify-center items-center md:items-center px-10'>
       <img src={Bitmoji} alt='' className="h-32 w-32 md:h-48 md:w-48"/>
-      <h1 data-aos='fade-down' data-aos-delay='300' className='md:text-left text-center py-20 md: md:text-7xl text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-500 font-poppins'>
+      <h1 data-aos='fade-down' data-aos-delay='300' className='md:text-left text-center py-20 md: md:text-7xl text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-500 font-poppins'>
         Hello! I'm Mohit Padhye
       </h1>
       <div data-aos='fade-up' data-aos-delay='1000' className='hidden'>
